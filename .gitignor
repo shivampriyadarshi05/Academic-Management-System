@@ -1,0 +1,6 @@
+echo "node_modules/" >> .gitignore
+git rm -r --cached backend/node_modules
+git rm -r --cached frontend/node_modules
+git add .
+git commit -m "removed node_modules from repo"
+git push
