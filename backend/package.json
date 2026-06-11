@@ -2,6 +2,9 @@
   "name": "academic-management-backend",
   "version": "1.0.0",
   "description": "Backend for Academic Management Web Application",
+  "engines": {
+    "node":"18.x"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
