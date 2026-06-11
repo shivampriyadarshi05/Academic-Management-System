@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Backend for Academic Management Web Application",
   "engines": {
-    "node":"18.x"
+    "node": "18.x"
   },
   "main": "server.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
